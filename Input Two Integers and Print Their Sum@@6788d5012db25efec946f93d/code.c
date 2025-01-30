@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main(){
-    int num;
-    int n;
-    int sum;
+    int num,n,sum;
     printf("%d",num);
     scanf("%d",num);
     printf("%d",n);
