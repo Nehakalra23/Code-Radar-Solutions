@@ -8,6 +8,6 @@ int main(){
     printf("%d",n);
     scanf("%d",n);
     sum=num +n;
-    printf("sum of %d and sum of%d is %d\n",sum);
+    printf("sum of %d and sum of %d is %d\n",sum);
     return 0;
 }
