@@ -1,5 +1,5 @@
 #include <stdio.h>
-int mqain(){
+int main(){
     int num;
     scanf("%d",num);
     print("%d",num0);
