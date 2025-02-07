@@ -2,6 +2,6 @@
 int main(){
     char n[];
     
-    printf("You entered: %s",n);
+    printf("You entered: %s\n",n);
     return 0;
 }
