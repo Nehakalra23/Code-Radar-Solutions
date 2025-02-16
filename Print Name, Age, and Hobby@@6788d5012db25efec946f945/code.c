@@ -3,12 +3,12 @@ int main(){
     char name[100];
     int age;
     char hobby[100];
-    scanf("%c",&name);
-    printf("Name: %c\n",name);
+    scanf("%[^\n]%*c",&name);
+    printf("Name: %s\n",name);
     scanf("%d",&age);
     printf("Age: %d\n",age);
-    scanf("%c",&hobby);
-    printf("Hobby: %c\n",hobby);
+    scanf("%[^\n]%*c",&hobby);
+    printf("Hobby: %s\n",hobby);
     return 0;
     
     }
