@@ -4,12 +4,12 @@ int main(){
     int age;
     char hobby[100];
     
-    scanf("%[^\n]%*c",&name);
+    scanf("%[^\n]%*c",name);
     printf("Name: %s\n",name);
     scanf("%d",&age);
     printf("Age: %d\n",age);
     getchar();
-    scanf("%[^\n]%*c",&hobby);
+    scanf("%[^\n]%*c",hobby);
     printf("Hobby: %s\n",hobby);
     return 0;
     
