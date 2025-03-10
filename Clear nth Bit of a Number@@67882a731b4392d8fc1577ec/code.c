@@ -2,10 +2,7 @@
 int main(){
     int a,n;
     scanf("%d %d",&a ,&n);
-    if(a&~(1<<n)){
-        printf("1");
-    }
-    else {
-        printf("0");
-    }
+    n=num&~(1<<n);
+    printf("%d\n",a,n;)
+    return 0;
 }
