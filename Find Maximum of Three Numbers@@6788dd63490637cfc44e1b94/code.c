@@ -14,7 +14,7 @@ int main() {
         printf("%d ", num3);}
 
     else if(num1=num2=num3){
-        printf("%d",num1)
+        printf("%d",num1);
     }
     
 
