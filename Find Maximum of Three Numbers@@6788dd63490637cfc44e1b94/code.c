@@ -10,11 +10,11 @@ int main() {
     else if ((num2 > num1)&& (num2>num3)){
          printf("%d ", num2);}
         
-    else if((num3 > num1)&& (num3>num2))
-     printf("%d ", num3);
+    else if((num3 > num1)&& (num3>num2)){
+        printf("%d ", num3);}
 
     else{
-        printf("0");}
+        printf("0");
     }
     
 
