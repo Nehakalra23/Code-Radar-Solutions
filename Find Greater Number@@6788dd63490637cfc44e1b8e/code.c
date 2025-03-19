@@ -9,6 +9,9 @@ int main() {
         printf("%d ", num1);
     else if (num2 > num1)
         printf("%d ", num2);
+    else{
+        printf("0")
+    }
     
 
     return 0;
