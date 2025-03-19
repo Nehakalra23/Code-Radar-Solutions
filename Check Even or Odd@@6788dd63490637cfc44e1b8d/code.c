@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int n,even;
-    even=n/2;
+    even=n%2;
     scanf("%d",&even);
     if(even=0){
         printf("Even");
