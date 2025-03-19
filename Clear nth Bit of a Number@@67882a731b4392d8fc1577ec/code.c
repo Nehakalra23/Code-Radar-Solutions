@@ -18,7 +18,7 @@ int main() {
     
     // Clear the nth bit and print the result
     int result = clearNthBit(num, n);
-    printf("Number after clearing the %d-th bit: %d\n", n, result);
+    printf(n, result);
     
     return 0;
 }
