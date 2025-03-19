@@ -10,7 +10,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &num);
     
-    printf("Enter the position of the bit to clear (0-based index): ");
+  
     scanf("%d", &n);
     
     printf(" %d\n", n, clearNthBit(num, n));
