@@ -14,7 +14,7 @@ int main() {
      printf("%d ", num3);
 
     else{
-        printf("0");
+        printf("0");}
     }
     
 
