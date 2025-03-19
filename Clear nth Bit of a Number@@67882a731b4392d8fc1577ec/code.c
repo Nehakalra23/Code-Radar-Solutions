@@ -6,11 +6,11 @@ int clearNthBit(int num, int n) {
 
 int main() {
     int num, n;
+ 
+    scanf("%d", &num);
     
-    printf("Enter a number: ");
-
-    
-  
+   
+   
     scanf("%d", &n);
     
     printf(" %d\n", n, clearNthBit(num, n));
