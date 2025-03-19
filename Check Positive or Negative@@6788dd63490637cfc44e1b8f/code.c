@@ -9,7 +9,7 @@ int main() {
     else if (0 > num1){
         printf("Negative");}
     else{
-        printf("Both numbers are equal.\n");}
+        printf("Zero");}
 
     return 0;
 }
