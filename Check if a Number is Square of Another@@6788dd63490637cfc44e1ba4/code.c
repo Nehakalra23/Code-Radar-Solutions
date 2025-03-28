@@ -6,7 +6,7 @@ int main() {
         printf("Yes");  // num2 is the square of num1
     } 
 
-    else{
+    else if(!(num2==num1 * num2)){
         printf("No");  // num2 is not the square of num1
     }
 
