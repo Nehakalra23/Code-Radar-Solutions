@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    float a,b;
+    int a,b;
+    scanf("%d %d",&A,&b);
     if(a%b==0){
         printf("Yes");
     
