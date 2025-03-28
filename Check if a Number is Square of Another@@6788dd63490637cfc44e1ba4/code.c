@@ -3,11 +3,11 @@
 int main() {
     int num1, num2;
     if (num2 == num1 * num1) {
-        printf("Yes");  // num2 is the square of num1
+        printf("Yes");  
     } 
 
     else if(!(num2==num1 * num2)){
-        printf("No");  // num2 is not the square of num1
+        printf("No"); 
     }
 
     return 0;
