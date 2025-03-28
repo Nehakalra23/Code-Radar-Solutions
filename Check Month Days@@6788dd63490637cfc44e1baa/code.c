@@ -11,4 +11,5 @@ int main(){
     else{
         printf("30");
     }
+    return 0;
 }
