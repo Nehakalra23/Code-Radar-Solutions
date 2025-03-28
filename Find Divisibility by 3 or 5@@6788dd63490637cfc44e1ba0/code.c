@@ -14,7 +14,7 @@ int main(){
 
     }
     else{
-        printf("Divisible by none");
+        printf("Not Divisible ");
     }
     return 0;
 
