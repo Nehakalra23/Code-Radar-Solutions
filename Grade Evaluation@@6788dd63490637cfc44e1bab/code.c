@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main(){
-    char char;
-    scanf("%c",&char);
-    if(char=="A"){
+    char grades;
+    scanf("%c",&grades);
+    if(grades=="A"){
         printf("Excellent");
     }
-    else if(char=="B"){
+    else if(grades=="B"){
         printf("Good");
     }
-     else if(char=="C"){
+     else if(grades=="C"){
         printf("Average");
     }
-     else if(char=="D"){
+     else if(grades=="D"){
         printf("Below Average");
     }
     else{
