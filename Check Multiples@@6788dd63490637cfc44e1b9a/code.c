@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    float a,b;
     if(a%b==0){
         printf("Yes");
     
