@@ -9,7 +9,7 @@ int main(){
         printf("Isocelous");
     }
     else{
-        printf("Scalene")
+        printf("Scalene");
     }
     return 0;
 }
