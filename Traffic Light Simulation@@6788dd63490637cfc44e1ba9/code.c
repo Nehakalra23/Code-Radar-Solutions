@@ -9,7 +9,10 @@ int main(){
         printf("Go");
     }
      else if(light=='Y'){
-        printf("Slow down");
+        printf("Slow Down");
+    }
+    else{
+        printf("Invalid input")
     }
     return 0;
 }
