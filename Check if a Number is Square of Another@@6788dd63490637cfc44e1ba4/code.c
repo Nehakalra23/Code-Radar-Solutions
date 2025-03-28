@@ -7,7 +7,7 @@ int main() {
     } 
 
     else if(num2 != num1*num1){
-        printf("No")
+        printf("No");
     }
 
     return 0;
