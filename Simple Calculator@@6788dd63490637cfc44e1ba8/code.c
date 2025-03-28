@@ -20,11 +20,13 @@ int main() {
     else if (operator == '/') {
         if (num2 != 0) {
             printf("%d\n", num1 / num2);
-        }
-    else {
+        } else {
             printf("error");
         }
-    
+    } 
+    else {
+        printf("Invalid operator!\n");
+    }
 
     return 0;
 }
