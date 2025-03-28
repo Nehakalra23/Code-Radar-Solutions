@@ -5,7 +5,8 @@ int main(){
     char character;
     scanf("%c", &character);
     
-  
+    // Convert character to lowercase for case-insensitive comparison
+    character = tolower(character);
     
     // Check if the character is a vowel
     if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u'){
@@ -21,9 +22,8 @@ int main(){
     }
     // Check if the character is a special character
     else {
-        printf("Special Character");
+        printf("Special character");
     }
     
     return 0;
 }
-
