@@ -2,7 +2,7 @@
 
 int main() {
     int temp;
-    scanf("%d ",&temo);
+    scanf("%d ",&temp);
     if ((temp<=0)) {
         printf("Freezing");  
     } 
