@@ -7,7 +7,7 @@ int main(){
 
     }
     else {
-        printf("Out if Range");
+        printf("Out of Range");
     }
     return 0;
 }
