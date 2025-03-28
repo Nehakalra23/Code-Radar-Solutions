@@ -11,5 +11,7 @@ int main(){
     }
     else if(num1<num2){
         printf("Second");
+    }
+    return 0;
 
 }
