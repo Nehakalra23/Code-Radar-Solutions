@@ -6,11 +6,9 @@ int fibonacci(int n){
     }
     return fibonacci(n-1)+fibonacci(n-2);
 }
-int main(){
-    int a;
-    scanf("%d",&a);
-    for(int i=1;i<=a;i++){
-        printf("%d",fibonacci(i));
+
+    for(int i=1;i<=n;i++){
+        printf("%d",fibonacci(n));
 
     }
     return 0;
