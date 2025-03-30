@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int n,i,j,num=1;
+    int n,i,j,;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<=i;j++){
-            printf("%d",num);
-            if(num%2==0){
+            
+            if(j%2==0){
                 printf("0");
             }
             else{
