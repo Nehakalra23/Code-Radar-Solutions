@@ -5,8 +5,8 @@ int main() {
   scanf("%d",&n);
   for(int i=1;i<n;i++)
   {
-    if(n%i==0){
-      prime =0;
+    if(n%i==0 && n!=2){
+      prime =1;
     }
     if(prime){
       printf("Not Prime");
