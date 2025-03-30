@@ -11,8 +11,10 @@ int main(){
             else{
                 num++;
             }
-            printf("\n");
+            
         }
-        return 0;
+        printf("\n");
+       
     }
+    return 0;
 }
