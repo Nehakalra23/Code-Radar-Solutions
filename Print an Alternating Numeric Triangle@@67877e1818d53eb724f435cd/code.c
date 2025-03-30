@@ -6,10 +6,10 @@ int main(){
         for(j=1;j<=i;j++){
             printf("%d",num);
             if(num%2==0){
-                num++;
+                printf("0");
             }
             else{
-                num++;
+                printf("1");
             }
             
         }
